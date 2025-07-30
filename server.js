@@ -13,12 +13,10 @@ app.use(express.json());
 app.use(cors());
 
 const allowedOrigins = [
- // "http://localhost:5173", // your frontend (Vite)
-  //"http://localhost:5173/dashboard",
- // "http://localhost:5173/register",
-  //"http://localhost:5173/login"
-  '*'
- 
+ "https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/", // your frontend (Vite)
+  "https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/dashboard",
+ "https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/register",
+  "https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/login"
 ];
 
 app.use(cors({
