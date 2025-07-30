@@ -13,10 +13,10 @@ app.use(express.json());
 app.use(cors());
 
 const allowedOrigins = [
- "https://law-firm-rose-one.vercel.app/" // your frontend (Vite)
- // "https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/dashboard",
- //"https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/register",
- // "https://law-firm-iou5bgi0o-abhinov007s-projects.vercel.app/login"
+  "https://law-firm-rose-one.vercel.app/", // your frontend (Vite)
+   "https://law-firm-rose-one.vercel.app//dashboard",
+ "https://law-firm-rose-one.vercel.app//register",
+  "https://law-firm-rose-one.vercel.app//login"
 ];
 
 app.use(cors({
