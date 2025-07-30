@@ -13,10 +13,12 @@ app.use(express.json());
 app.use(cors());
 
 const allowedOrigins = [
-  "http://localhost:5173", // your frontend (Vite)
-  "http://localhost:5173/dashboard",
-  "http://localhost:5173/register",
-  "http://localhost:5173/login"
+ // "http://localhost:5173", // your frontend (Vite)
+  //"http://localhost:5173/dashboard",
+ // "http://localhost:5173/register",
+  //"http://localhost:5173/login"
+  '*'
+ 
 ];
 
 app.use(cors({
